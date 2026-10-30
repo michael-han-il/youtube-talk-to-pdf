@@ -1,0 +1,15 @@
+{
+  "name": "michael-han-il",
+  "owner": {
+    "name": "Mike Han",
+    "url": "https://github.com/michael-han-il"
+  },
+  "description": "Mike Han's Claude plugins: turn recorded talks and lectures into transcript + slides PDFs.",
+  "plugins": [
+    {
+      "name": "youtube-talk-to-pdf",
+      "source": "./",
+      "description": "Turn a YouTube talk or lecture into a readable PDF: local Whisper transcript, LLM punctuation and paragraphs, and the presentation slides placed where they were shown. Any language, with extra Chinese support (Traditional or Simplified, Taiwan/Hong Kong character forms, full-width punctuation). Apple Silicon, Intel Mac, Windows or Linux."
+    }
+  ]
+}

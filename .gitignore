@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+# outputs if you test inside the repo
+transcripts/
+*.mp4
+*.m4a
