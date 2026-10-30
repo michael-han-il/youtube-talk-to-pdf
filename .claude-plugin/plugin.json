@@ -1,6 +1,6 @@
 {
   "name": "youtube-talk-to-pdf",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Turn a YouTube talk or lecture into a readable PDF: local Whisper transcript, LLM punctuation and paragraphs, and the presentation slides placed where they were shown. Any language, with extra Chinese support (Traditional or Simplified, Taiwan/Hong Kong character forms, full-width punctuation). Apple Silicon, Intel Mac, Windows or Linux.",
   "author": {
     "name": "Mike Han"

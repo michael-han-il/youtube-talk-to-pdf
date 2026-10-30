@@ -50,6 +50,16 @@ Everything runs locally with `uv` scripts. Models download on first use: about 3
 ## Using it
 Ask Claude something like *"Make a PDF of this lecture with the slides: <URL>, from 40:10 to 1:46:55, it's in Chinese, Traditional characters."* The skill gathers what's missing, runs (or hands you) the four commands, and pauses so you can review the extracted slides before they go into the PDF.
 
+## Network access and data
+The scripts run locally and send none of your content anywhere. They make these connections:
+
+- **YouTube**, via yt-dlp, to download the audio and video you ask for (skipped if you pass a local file)
+- **Hugging Face**, to download model weights on first use (Whisper, Qwen2.5, CLIP)
+- **PyPI**, via `uv`, to install the Python packages on first run
+- **localhost:11434**, only if you use Ollama for formatting
+
+Transcripts, slide images, videos and PDFs are written only to the folder you run the scripts in. Nothing is uploaded, and the plugin keeps no data of its own.
+
 ## Please use responsibly
 The output copies a speaker's talk and slides. Use it for personal study, accessibility, or content you have rights to, and respect the video's licence and YouTube's Terms of Service.
 
